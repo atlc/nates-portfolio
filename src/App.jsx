@@ -24,7 +24,7 @@ const App = () => {
     useEffect(() => {
         setInterval(() => {
             setSomeState(Date.now());
-        }, 100);
+        }, 1);
     });
 
     const images = {
