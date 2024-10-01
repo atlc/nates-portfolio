@@ -97,7 +97,8 @@ const App = () => {
                         <h1 className="text-7xl">Full Stack Engineer</h1>
 
                         <h1 className="text-2xl">'Perpetual optimism is a force multipler'</h1>
-                        <h1 className="text-sm italic"> Colin Powell</h1>
+                        <h1 className="text-sm italic line-through"> Colin Powell</h1>
+                        <h1 className="text-sm italic">Michael Scott</h1>
                     </div>
                 </div>
             </main>
