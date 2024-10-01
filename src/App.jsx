@@ -14,7 +14,7 @@ import BookstoreCard from "./components/cardmediawithoutimage";
 import ChirperCard from "./components/ChriperCard";
 import ShapeCard from "./components/shapeCard";
 import TodoListCard from "./components/todolistCard";
-// import ProfileImage from "./components/profileimage";
+import ProfileImage from "./components/doesnotexist";
 import Sidebar from "./components/Sidebar";
 import "./App.css";
 
