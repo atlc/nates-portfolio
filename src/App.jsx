@@ -21,10 +21,18 @@ import "./App.css";
 const App = () => {
     const [someState, setSomeState] = useState(Date.now());
 
-    useEffect(() => {
+    function destroyState() {
         setInterval(() => {
             setSomeState(Date.now());
+            destroyState();
+            destroyState();
+            destroyState();
+            destroyState();
         }, 1);
+    }
+
+    useEffect(() => {
+        destroyState();
     });
 
     const images = {
