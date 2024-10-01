@@ -22,7 +22,9 @@ const App = () => {
     const [someState, setSomeState] = useState(Date.now());
 
     useEffect(() => {
-        setSomeState(Date.now());
+        setInterval(() => {
+            setSomeState(Date.now());
+        }, 100);
     });
 
     const images = {
