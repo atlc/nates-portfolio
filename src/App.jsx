@@ -19,6 +19,8 @@ import Sidebar from "./components/Sidebar";
 import "./App.css";
 
 const App = () => {
+    const [someState, setSomeState] = useState(Date.now());
+
     useEffect(() => {
         setSomeState(Date.now());
     });
