@@ -19,6 +19,10 @@ import Sidebar from "./components/Sidebar";
 import "./App.css";
 
 const App = () => {
+    useEffect(() => {
+        setSomeState(Date.now());
+    });
+
     const images = {
         // heere's where I'll add an array of images for gallery
     };
